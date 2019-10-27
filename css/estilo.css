@@ -88,4 +88,7 @@ section[title="Contenido"] {
       bottom: 0px;
 }
 
-main{position: relative;}
+main{
+      position: relative;
+      left: 220px;
+}
