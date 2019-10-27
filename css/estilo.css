@@ -36,7 +36,7 @@ h1, h3, h5 { font-stretch: "expanded";}
 h2, h4, h6 { font-style: "italic";}
 
 
-p, td, ul{ font-family: "serif";
+p, td{ font-family: "serif";
       font-size: 16px;
       background-color:rgba(249, 253, 6, 0.199);
       color: rgb(0, 0, 0);
