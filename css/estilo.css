@@ -6,7 +6,7 @@ body {
   }
 h1 {
       font-size: 4em;
-      color: #fff;
+      color: rgb(26, 26, 26);
       padding: 100px 25px;
       background-size: cover;
       height:160px;
@@ -30,6 +30,7 @@ h2, h3, h4, h5, h6 {
       text-transform: uppercase;
       border-radius: 15px;
       border: 1px solid rgb(49, 49, 49);
+      height: fit-content;
 }
 
 /*esp: */
