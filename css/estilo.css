@@ -6,7 +6,6 @@ body {
   }
 h1 {
       font-size: 4em;
-      background-color:#FF5733; 
       color: #fff;
       padding: 100px 25px;
       background-size: cover;
@@ -99,10 +98,7 @@ header > h1 { order: 2; }
 
 header {
       background-color: aquamarine;
+      border: 1px solid rgb(70, 70, 70);
 }
 
-header, main { display: flex; }
-
-main > p { order: 1; }
-
-main > img {order: 2; }
+header{ display: flex; }
