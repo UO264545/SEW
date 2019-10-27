@@ -26,7 +26,7 @@ h6 {font-size: 1.15em; }
 
 /*esp: 5*/
 h2, h3, h4, h5, h6 { 
-      font-family: "Arial Narrow", "Verdana", "Helvetica", "sans-serif";
+      font-family: "Arial Narrow", "Verdana", "Helvetica", sans-serif;
       font-weight: bold;
       font-size-adjust: 0.5;
       background-color:rgb(6, 253, 200);
@@ -42,7 +42,7 @@ h1, h3, h5 { font-stretch: expanded;}
 h2, h4, h6 { font-style: italic;}
 
 /*esp: 2*/
-p, td{ font-family: "serif";
+p, td{ font-family: serif;
       font-size: 16px;
       background-color:rgba(249, 253, 6, 0.199);
       color: rgb(0, 0, 0);
@@ -62,7 +62,6 @@ a:link{
 a:visited {
       color : rgba(82, 6, 88, 0.849);
       text-decoration: overline;
-      text-decoration-line: line-through;
       text-decoration-style: double;
 }
 
@@ -113,5 +112,5 @@ header {
       display: flex;
 }
 
-/*esp: 11*/
-img [style="border:0;width:88px;height:31px"] { float: left; }
+/*esp: 2*/
+a > img { float: left; }
