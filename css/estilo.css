@@ -36,10 +36,10 @@ h2, h3, h4, h5, h6 {
 }
 
 /*esp: 3*/
-h1, h3, h5 { font-stretch: "expanded";}
+h1, h3, h5 { font-stretch: expanded;}
 
 /*esp: 3*/
-h2, h4, h6 { font-style: "italic";}
+h2, h4, h6 { font-style: italic;}
 
 /*esp: 2*/
 p, td{ font-family: "serif";
