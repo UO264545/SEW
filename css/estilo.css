@@ -112,3 +112,5 @@ header {
       border: 1px solid rgb(70, 70, 70);
       display: flex;
 }
+
+a [href="http://jigsaw.w3.org/css-validator/check/referer"]{ float: left; }
