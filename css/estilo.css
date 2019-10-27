@@ -9,8 +9,8 @@ h1 {
       background-color:#FF5733; 
       color: #fff;
       padding: 100px 25px;
-      letter-spacing: 1.5em;
   }
+
 h2 {font-size: 2.5em; }
 h3 {font-size: 2em; }
 h4 {font-size: 1.5em; }
@@ -38,7 +38,7 @@ h2, h4, h6 { font-style: "italic";}
 
 p, td, ul{ font-family: "serif";
       font-size: 16px;
-      background-color:rgba(249, 253, 6, 0.116);
+      background-color:rgba(249, 253, 6, 0.199);
       color: rgb(0, 0, 0);
 }
 
@@ -75,3 +75,7 @@ table, th, td {
     }
 
 tr:nth-child(even) {background-color: #f2f2f2;}
+
+nav {
+      position: absolute left;
+}
