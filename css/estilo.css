@@ -9,6 +9,8 @@ h1 {
       background-color:#FF5733; 
       color: #fff;
       padding: 100px 25px;
+      background-image: url(../multimedia/backgroundNav.png);
+      background-size: cover;
   }
 
 h2 {font-size: 2.5em; }
@@ -79,8 +81,6 @@ table, th, td {
 tr:nth-child(even) {background-color: #f2f2f2;}
 
 section[title="Contenido"] {
-      background-image: url(../multimedia/backgroundNav.png);
-      background-size: cover;
       background-color: rgb(61, 61, 61);
       position: fixed;
       left: 0px;
