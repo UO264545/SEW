@@ -58,3 +58,9 @@ a:visited {
       text-decoration-line: blink;
       text-decoration-style: double;
 }
+
+ul {
+      list-style-image: url(../multimedia/iconoLista.png);
+      list-style-type: circle;
+      list-style-position: inside;
+}
