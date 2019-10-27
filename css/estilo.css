@@ -5,9 +5,43 @@ body {
       background-color: #f6f6f6;
   }
 h1 {
+      font-size: 4em;
       background-color:#FF5733; 
       color: #fff;
       text-transform: uppercase;
       padding: 100px 25px;
-      text-align: center;     
+      text-align: center; 
   }
+h2 {font-size: 2.5em; }
+h3 {font-size: 2em; }
+h4 {font-size: 1.5em; }
+h5 {font-size: 1.3em; }
+h6 {font-size: 1.15em; }
+
+/*esp: */
+h1, h2, h3, h4, h5, h6 { 
+      font-family: "Arial Narrow", "Verdana", "Helvetica", "sans-serif";
+      font-weight: "bold";
+      font-size-adjust: 0.5;
+      background-color:rgb(6, 253, 200);
+      color: rgb(0, 0, 0);
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2em;
+}
+
+/*esp: */
+h1, h3, h5 { font-stretch: "expanded";}
+
+/*esp: */
+h2, h4, h6 { font-style: "italic";}
+
+
+p, td, ul{ font-family: "serif";
+      font-size: 16px;
+      background-color:rgba(249, 253, 6, 0.116);
+      color: rgb(0, 0, 0);
+}
+
+
+p::first-letter { font-size: 20px;}
