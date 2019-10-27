@@ -92,6 +92,6 @@ img {
       width: 350px;
 }
 
-body > section { order: 1;}
+header > section { order: 1;}
 
-body > main > h1 { order: 2; }
+header > h1 { order: 2; }
