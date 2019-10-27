@@ -10,7 +10,7 @@ h1 {
       color: #fff;
       padding: 100px 25px;
       background-size: cover;
-      size: 260px;
+      height:160px;
   }
 
 h2 {font-size: 2.5em; }
@@ -86,4 +86,7 @@ section[title="Contenido"] {
       border-radius: 5px;
 }
 
-img { float: right; }
+img {
+      float: right;
+      width: 350px;
+}
