@@ -78,6 +78,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
 section[title="Contenido"] {
       background-image: url(../multimedia/backgroundNav.png);
+      background-size: cover;
       background-color: rgba(155, 155, 155, 0.904);
       position: fixed;
       left: 0px;
