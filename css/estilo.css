@@ -78,5 +78,6 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
 nav {
       background-color: rgb(109, 109, 109);
-      position: absolute left;
+      position: absolute;
+      left: 100px;
 }
