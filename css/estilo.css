@@ -52,6 +52,8 @@ a:link{
       text-decoration-style:dotted;
 }
 
+a { background-color:#000000de;}
+
 a:visited {
       color : rgba(82, 6, 88, 0.849);
       text-decoration: overline;
