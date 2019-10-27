@@ -76,9 +76,9 @@ table, th, td {
 
 tr:nth-child(even) {background-color: #f2f2f2;}
 
-section [title="Contenido"] {
+section[title="Contenido"] {
       background-color: rgba(155, 155, 155, 0.904);
-      position: absolute;
+      position: fixed;
       left: 0px;
       top: 0px;
       bottom: 0px;
