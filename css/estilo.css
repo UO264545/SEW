@@ -98,6 +98,11 @@ header > section { order: 1;}
 header > h1 { order: 2; }
 
 header {
-      display: flex;
       background-color: aquamarine;
 }
+
+header, main { display: flex; }
+
+main > p { order: 1; }
+
+main > img {order: 2; }
