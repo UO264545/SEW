@@ -91,3 +91,7 @@ img {
       float: right;
       width: 350px;
 }
+
+body > section { order: 1;}
+
+body > main > h1 { order: 2; }
