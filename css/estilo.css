@@ -26,7 +26,6 @@ h2, h3, h4, h5, h6 {
       font-size-adjust: 0.5;
       background-color:rgb(6, 253, 200);
       color: rgb(0, 0, 0);
-      text-transform: uppercase;
       border-radius: 15px;
       border: 1px solid rgb(49, 49, 49);
       width: fit-content, max-content;
@@ -54,8 +53,6 @@ a:link{
       text-decoration-line: overline underline;
       text-decoration-style:dotted;
 }
-
-a { background-color:#000000de;}
 
 a:visited {
       color : rgba(82, 6, 88, 0.849);
@@ -87,7 +84,7 @@ section[title="Contenido"] {
       border-radius: 5px;
 }
 
-img, video {
+img {
       float: right;
       width: 350px;
 }
