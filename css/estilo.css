@@ -9,7 +9,6 @@ h1 {
       background-color:#FF5733; 
       color: #fff;
       padding: 100px 25px;
-      background-image: url(../multimedia/backgroundNav.png);
       background-size: cover;
   }
 
@@ -82,5 +81,8 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
 section[title="Contenido"] {
       background-color: rgb(61, 61, 61);
-      float: left top;
+      float: left;
+      border-radius: 5px;
 }
+
+img { float: right; }
