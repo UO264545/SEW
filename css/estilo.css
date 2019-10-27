@@ -2,100 +2,12 @@ body {
       font: 400 15px Tahoma, sans-serif;
       line-height: 1.8;
       color: #818181;
+      background-color: #f6f6f6;
   }
 h1 {
-      font-size: 4em;
-      color: rgb(26, 26, 26);
-      padding: 100px 25px;
-      background-size: cover;
-      height:160px;
+      background-color:#FF5733; 
+      color: #fff;
       text-transform: uppercase;
-      right: auto;
-      width: max-content;
+      padding: 100px 25px;
+      text-align: center;     
   }
-
-h2 {font-size: 2.5em; }
-h3 {font-size: 2em; }
-h4 {font-size: 1.5em; }
-h5 {font-size: 1.3em; }
-h6 {font-size: 1.15em; }
-
-/*esp: */
-h2, h3, h4, h5, h6 { 
-      font-family: "Arial Narrow", "Verdana", "Helvetica", "sans-serif";
-      font-weight: "bold";
-      font-size-adjust: 0.5;
-      background-color:rgb(6, 253, 200);
-      color: rgb(0, 0, 0);
-      border-radius: 15px;
-      border: 1px solid rgb(49, 49, 49);
-      width: fit-content, max-content;
-}
-
-/*esp: */
-h1, h3, h5 { font-stretch: "expanded";}
-
-/*esp: */
-h2, h4, h6 { font-style: "italic";}
-
-
-p, td{ font-family: "serif";
-      font-size: 16px;
-      background-color:rgba(249, 253, 6, 0.199);
-      color: rgb(0, 0, 0);
-}
-
-
-p::first-letter { font-size: 20px;}
-
-/*esp: */
-a:link{
-      color : rgb(234, 0, 255);
-      text-decoration-line: overline underline;
-      text-decoration-style:dotted;
-}
-
-a:visited {
-      color : rgba(82, 6, 88, 0.849);
-      text-decoration: overline;
-      text-decoration-line: blink;
-      text-decoration-style: double;
-}
-
-ul {
-      list-style-image: url(../multimedia/iconoLista.png);
-      list-style-type: circle;
-      list-style-position: inside;
-}
-
-table{
-      border-collapse: collapse;
-}
-
-table, th, td {
-      padding: 7.5px;
-      border: 1px solid black;
-    }
-
-tr:nth-child(even) {background-color: #f2f2f2;}
-
-section[title="Contenido"] {
-      background-color: rgb(61, 61, 61);
-      float: left;
-      border-radius: 5px;
-}
-
-img {
-      float: right;
-      width: 350px;
-}
-
-header > section { order: 1;}
-
-header > h1 { order: 2; }
-
-header {
-      background-color: aquamarine;
-      border: 1px solid rgb(70, 70, 70);
-      display: flex;
-}
