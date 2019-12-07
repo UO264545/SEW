@@ -29,11 +29,12 @@ section[name="resultado"] {
 }
 
 section[name="paneles"]{
-    background-color: ghostwhite;
+    background-color: lightgray;
     border-color: black;
     border:medium;
     border-radius: 2px;
     display: grid;
+    border-style: outset;
 }
 
 section[name="paneles"] > section {
