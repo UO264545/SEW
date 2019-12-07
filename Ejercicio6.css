@@ -33,6 +33,11 @@ section[name="paneles"]{
     border-color: black;
     border:medium;
     border-radius: 2px;
+    display: grid;
+}
+
+section[name="paneles"] > section {
+    display: flex;
 }
 
 section[name="paneles"] > section > button {
@@ -41,6 +46,6 @@ section[name="paneles"] > section > button {
 }
 
 section[name="paneles"] > section > button > img {
-    width: 70px;
-    height: 70px;
+    width: 80%;
+    height: 80%;
 }
