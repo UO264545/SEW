@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css" />
+    <script type="text/javascript" src="CalculadoraRPN.js"></script>
+    <title>Calculadora RPN</title>
+</head>
+<body>
+    <h1>Calculadora RPN</h1>
+    <section name="calculadora">
+        <section name="resultado">
+            <textarea id="text" type=text value="" rows="5" disabled="disabled"></textarea>               
+        </section>
+        <section name="botones">
+            <section name="fila1">
+                <button type="button" name="operacion" onClick="calc.borrarLinea()">C</button>
+                <button type="button" name="operacion" onClick="calc.borrarPila()">AC</button>
+                <button type="button" name="operacion" onClick="calc.pop()">POP</button>
+                <button type="button" name="operacion" onClick="calc.swap()">SWAP</button>
+            </section>
+            <section name="fila2">
+                <button type="button" name="operacion" onClick="calc.operacionUnDigito('Math.sin(')">sin</button>
+                <button type="button" name="operacion" onClick="calc.operacionUnDigito('Math.cos(')">cos</button>
+                <button type="button" name="operacion" onClick="calc.operacionUnDigito('Math.tan(')">tan</button>
+                <button type="button" name="operacion" onClick="calc.elevarAlCuadrado()">x^2</button>
+            </section>
+            <section name="fila3">
+                <button type="button" name="operacion" onClick="calc.operacionUnDigito('(1/')">1/x</button>
+                <button type="button" name="operacion" onClick="calc.operacionUnDigito('Math.sqrt(')">√</button>
+                <button type="button" name="operacion" onClick="calc.operacionUnDigito('Math.log(')">log</button>
+                <button type="button" name="operacion" onClick="calc.operacionDosDigitos('/')">/</button>
+            </section>
+            <section name="fila4">
+                <button type="button" name="numero" onClick="calc.escribirNumero(7)">7</button>
+                <button type="button" name="numero" onClick="calc.escribirNumero(8)">8</button>
+                <button type="button" name="numero" onClick="calc.escribirNumero(9)">9</button>
+                <button type="button" name="operacion" onClick="calc.operacionDosDigitos('*')">X</button>
+            </section>
+            <section name="fila5">
+                <button type="button" name="numero" onClick="calc.escribirNumero(4)">4</button>
+                <button type="button" name="numero" onClick="calc.escribirNumero(5)">5</button>
+                <button type="button" name="numero" onClick="calc.escribirNumero(6)">6</button>
+                <button type="button" name="operacion" onClick="calc.operacionDosDigitos('-')">-</button>
+            </section>
+            <section name="fila6">
+                <button type="button" name="numero" onClick="calc.escribirNumero(1)">1</button>
+                <button type="button" name="numero" onClick="calc.escribirNumero(2)">2</button>
+                <button type="button" name="numero" onClick="calc.escribirNumero(3)">3</button>
+                <button type="button" name="operacion" onClick="calc.operacionDosDigitos('+')">+</button>
+            </section>
+            <section name="fila7">
+                <button type="button" name="numero" onClick="calc.escribirNumero(0)">0</button>
+                <button type="button" name="numero" onClick="calc.escribirNumero('.')">.</button>
+                <button type="button" name="enter" onClick="calc.enter()">ENTER</button>
+            </section>
+        </section>
+    </section>
+</body>
+</html>

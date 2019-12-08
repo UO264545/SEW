@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="Ejercicio10.css" />
+    <script type="text/javascript" src="Ejercicio10.js" charset="utf-8"></script>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script>
+                $(function () {
+                    iniciarPagina();
+            });
+    </script>
+</head>
+    <body>
+        <h1>Cambio de moneda</h1>
+        <section>
+            <input type="text" id="inputEuro" />
+            <p id="euro"></p>
+            <button id="cambiar" onclick="conversor.cambiar()"><img src="img/cambio.png" /></button>
+            <input type="text" id="inputOtraMoneda" disabled="disabled"/>
+            <p id="otraMoneda"></p>
+            <select id="monedas">
+                <option value="USD">Dolar estadounidense (USD)</option>
+                <option value="JPY">Yen (JPY)</option>
+                <option value="GBP">Libra esterlina (GBP)</option>
+                <option value="CZK">Corona checa (CZK)</option>
+                <option value="DKK">Corona danesa (DKK)</option>
+            </select>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="Ejercicio11.css" />
+    <script type="text/javascript" src="Ejercicio11.js" charset="utf-8"></script>
+	<script type="text/javascript" src="Util.js" charset="utf-8"></script>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+</head>
+    <body>
+		<section id="Cabecera">
+			<img src="img/logo.png" />
+			<section id="Busqueda">
+				<input id="inputBusqueda" type="text"/>
+				<button id="buscar" onclick="buscador.buscar()">Buscar</button>
+			</section>
+		</section>
+		<section id="datosPokemon">
+			<h2 id="nombrePokemon"></h2>
+			<section id="sectionDatos">				
+				<table id="datos" hidden>
+					<tr>
+						<th>Pokedex nacional</th>
+						<td id="pokedex"></td>
+					</tr>
+					<tr>
+						<th>Tipos</th>
+						<td id="tipos"></td>
+					</tr>
+					<tr>
+						<th>Habilidades</th>
+						<td id="habilidades"></td>
+					</tr>
+					<tr>
+						<th>Ratio de captura (sobre 255)</th>
+						<td id="ratio"></td>
+					</tr>
+					<tr>
+						<th>Genero</th>
+						<td id="genero"></td>
+					</tr>
+					<tr>
+						<th>Peso</th>
+						<td id="peso"></td>
+					</tr>
+					<tr>
+						<th>Altura</th>
+						<td id="altura"></td>
+					</tr>
+				</table>
+				<img id="imagenDatos" src="img/fotoInicial.png"/>
+			</section>
+			<section>
+				<h3 class="sprites" hidden>Sprites</h3>
+				<table class="sprites" hidden>
+					<tr>
+						<th colspan="2">Forma normal</th>
+					</tr>
+					<tr class="DiferenciaGenero" hidden>
+						<th colspan="1">Macho</th>
+						<th colspan="1">Hembra</th>
+					</tr>
+					<tr>
+						<td><img id="imagenMachoFront"/></td>
+						<td><img id="imagenMachoBack"/></td>
+						<td class="DiferenciaGenero" hidden><img id="imagenHembraFront"/></td>
+						<td class="DiferenciaGenero" hidden><img id="imagenHembraBack"/></td>
+					</tr>
+				</table>
+				<table class="sprites" hidden>
+					<tr>
+						<th colspan="2">Shiny</th>
+					</tr>
+					<tr class="DiferenciaGenero" hidden>
+						<th colspan="1">Macho</th>
+						<th colspan="1">Hembra</th>
+					</tr>
+					<tr>
+						<td><img id="imagenMachoFrontShiny"/></td>
+						<td><img id="imagenMachoBackShiny"/></td>
+						<td class="DiferenciaGenero" hidden><img id="imagenHembraFrontShiny"/></td>
+						<td class="DiferenciaGenero" hidden><img id="imagenHembraBackShiny"/></td>
+					</tr>
+				</table>
+			</section>
+		</section>
+    </body>
+</html>

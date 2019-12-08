@@ -1,0 +1,34 @@
+section[name="calculadora"] {
+    background-color: lightgray;
+    display: grid;
+    height: 350px;
+    width: 300px;
+    border-radius: 7.5px;
+}
+
+section[name="botones"] {
+    padding-left: 2.5%;
+    display: inline-grid;
+}
+
+button {
+    font-size: 1em;
+    border-radius: 3.5px;
+    width: 23%;
+}
+
+button[name="enter"] {
+    width: 46%;
+}
+
+textarea {
+    width: 95%;
+    height: 85%;
+    border-radius: 5px;
+    text-align:right;
+}
+
+section[name="resultado"] {
+    padding-left: 2.5%;
+    padding-top: 2.5%;
+}

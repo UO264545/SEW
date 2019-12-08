@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+    <script type="text/javascript" src="Ejercicio7.js"></script>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <h1>Encabezado 1</h1>
+    <h2>Encabezado 2</h2>
+    <h3>Encabezado 3</h3>
+    <button id="btEncabezados" onclick="modificador.cambiarTextoAEcabezados()">Modificar texto a los encabezados</button>
+    <p id="parrafo">Esto es un parrafo.</p>
+    <button id="btParrafo" onclick="modificador.ocultarParrafo()">Ocultar parrafo</button>
+    <section name="tabla">
+        <table id="tabla">
+            <tr>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+                <th>Columna 3</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
+        </table>
+        <button id="btFilas" onclick="modificador.agregarFila()">A�adir nuevas filas</button>
+        <button id="btEliminarFilas" onclick="modificador.eliminarUltimaFila()">Quitar ultima fila</button>
+        <section name="operacionesConTabla">
+            <button id="btSumarTabla" onclick="modificador.sumarTabla()">Sumar filas y columnas</button>
+            <input id="sumaTabla" type=text value="" disabled="disabled" />
+        </section>
+    </section>
+    <section name="informacion">
+        <button id="btInformacion" onclick="modificador.mostrarInformacion()">Mostrar informacion</button>
+        <button id="btOcultarInformacion" onclick="modificador.ocultarInformacion()">Ocultar informacion</button>
+        <section id="informacion"></section>
+    </section>
+</body>
+</html>

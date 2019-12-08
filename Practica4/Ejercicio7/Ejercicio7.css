@@ -1,0 +1,40 @@
+h1, h2, h3 {
+    background-color: pink;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section, button { margin: 5px; }
+
+section {
+    border-style: outset;
+}
+
+section[id="informacion"] > p {
+    border-bottom-style: dashed;
+    border-width: 1px 1px;
+    font-size: 0.9em;
+}
+
+table, th, td {
+    padding: 7.5px;
+    border: 1px solid black;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}

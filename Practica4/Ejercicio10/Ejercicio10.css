@@ -1,0 +1,40 @@
+body {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body, option, input, select {
+    font-family: 'Bradley Hand ITC', 'French Script MT', 'Tempus Sans ITC';
+    font-size: 15px;
+    font-size-adjust: inherit;
+    color: black;
+    font-weight: 600;
+}
+
+img {
+    height: 23px;
+    width: auto;
+}
+
+section {
+    display: flex;
+    height: 25px;
+    width: 50%;
+}
+
+p {
+    margin: -7px 3px;
+    font-size: 2em;
+}
+
+input, button {
+    margin: 0px 3px;
+    background: none;
+}
+
+select, input, button {
+    border-radius: 3px;
+    border-color: seagreen;
+}

@@ -1,0 +1,49 @@
+body {
+    font-family: 'Century Schoolbook';
+    background-color: thistle;
+    color: black;
+}
+
+section[id="dia"] {
+    background-color: lightblue;
+    display: flex;
+    border-bottom-color: black;
+    border-bottom-style: groove;
+    justify-content: space-around;
+    height: 130px;
+}
+
+button {
+    border: thin;
+    margin: 3px 3px;
+    border-radius: 5px;
+    background-color: chartreuse;
+}
+
+img {
+    width: 30px;
+    height: auto;
+}
+
+img[id="iconoTiempo"] {
+    width: 70px;
+    height: auto;
+}
+
+section[id="columna1"] {
+    width: 150px;
+}
+
+section[id="columna2"], section[id="columna3"] {
+    font-size: 0.75em;
+}
+
+section[id="datos"] {
+    padding: 5px 5px;
+    border-color: black;
+    border-style: groove;
+    border-radius: 3px;
+    display: list-item;
+    font-family: Courier New, Courier, monospace;
+    width: 750px;
+}

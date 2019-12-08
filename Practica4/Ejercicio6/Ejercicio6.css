@@ -1,0 +1,52 @@
+body {
+    background-color: dimgray;
+    color: white;
+}
+
+h1 {
+    border-radius: 5px;
+    background-color: lawngreen;
+}
+
+section, button {
+    padding: 5px 5px;
+}
+
+button {
+    border: groove;
+    border-color: aliceblue;
+    background-color:antiquewhite;
+    border-radius: 7.5px;
+}
+
+section[id="sectionJuego"] { 
+    display: flex;
+}
+
+section[name="resultado"] {
+    font-size: 3em;
+    display:list-item;
+}
+
+section[name="paneles"]{
+    background-color: lightgray;
+    border-color: black;
+    border:medium;
+    border-radius: 2px;
+    display: grid;
+    border-style: outset;
+}
+
+section[name="paneles"] > section {
+    display: flex;
+}
+
+section[name="paneles"] > section > button {
+    width: 80px;
+    height: 80px;
+}
+
+section[name="paneles"] > section > button > img {
+    width: 80%;
+    height: 80%;
+}

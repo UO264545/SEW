@@ -1,0 +1,50 @@
+:first-letter {
+    text-transform:capitalize;
+}
+
+section[id="Busqueda"] {
+    align-self: center;
+}
+
+section[id="sectionDatos"], section[id="Cabecera"] {
+    display: flex;
+}
+
+section[id="sectionDatos"] > img {
+    width: 35%;
+    height: 35%;
+}
+
+input {
+    color: grey;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    height: 200px;
+    width:auto;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 15px;
+}
+
+table {
+    border: 1px solid black;
+}
+
+td {
+    text-align: left;
+}
+
+th {
+    text-align: center;
+    width: auto;
+    background-color: #ef5350;
+    color: whitesmoke;
+}

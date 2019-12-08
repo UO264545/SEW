@@ -1,0 +1,44 @@
+input {
+    border: none;
+    background-color: lightgray;
+    text-align: right;
+    width: 100%;
+}
+
+input[id="text"] {
+    font-size-adjust:initial;
+    font-size: 1.5em;
+}
+
+input[id="text2"] {
+    font-size: 2em;
+    color: black;
+}
+
+section[name="calculadora"] {
+    background-color: lightgray;
+    display: grid;
+    height: 350px;
+    width: 350px;
+}
+
+section[name="botones"] {
+    padding-left: 7.5%;
+    display:inline-grid;
+}
+
+section[name="fila1"] > button, section[name="fila2"] > button {
+    background-color: lightgray;
+    width: 14%;
+    font-size: 0.75em;
+}
+
+button {
+    font-size: 1em;
+    border: none;
+    width: 18.5%;
+}
+
+button[name="numero"] {
+    background-color:white;
+}

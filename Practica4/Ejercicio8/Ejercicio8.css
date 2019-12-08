@@ -1,0 +1,29 @@
+body {
+    font-family: 'Century Schoolbook';
+}
+
+section[id="dia"] {
+    background-color: lightblue;
+    display: flex;
+    border-bottom: 1px;
+    justify-content: space-around;
+}
+
+img {
+    width: 200%;
+    height:auto;
+}
+
+section[id="columna1"] {
+    width: 150px;
+}
+
+section[id="datos"] {
+    padding: 5px 5px;
+    border-color: black;
+    border-style: groove;
+    border-radius: 3px;
+    display: list-item;
+    font-family: Courier New, Courier, monospace;
+    width: 400px;
+}
