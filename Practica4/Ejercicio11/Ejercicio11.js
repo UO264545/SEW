@@ -8,7 +8,7 @@ class Buscador {
          $("th").each(function () { $(this).attr("colspan", $(this).attr("colspan") / 2) });
 
         $.ajax({
-            url: "https://pokeapi.co/api/v2/pokemon/" + nombre,
+            url: "https://pokeapi.co/api/v2/pokemon/" + nombre.toLowerCase(),
             type: "get",
             dataType: 'json',
             data: {},
