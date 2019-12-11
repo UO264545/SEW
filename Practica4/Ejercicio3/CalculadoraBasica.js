@@ -33,6 +33,7 @@ class CalculadoraBasica {
         this.operacionAMostrar = this.operacionTotal + "";
         this.actualizarInput();
         this.operacionAMostrar = "";
+        this.operacionTotal = "";
     }
 
     resetear() {
