@@ -1,5 +1,5 @@
 function iniciarPagina() {    $("section").each(function () {        var boton = "<button onclick='mostrarDatos(" +            $(this).attr("id") +            ")' >Consultar informacion meteorologica</button>";        var botonOcultar = "<button onclick='ocultarDatos(" +            $(this).attr("id") +            ")' >Ocultar</button>";        $(this).html($(this).html() + "<section name='botones'>" + boton + botonOcultar + "</section>");    });}function ocultarDatos(id) {    $("#" + id).children("#datos").remove();}function mostrarDatos(id) {    var seccion = $("#" + id);
-    var link = "http://worldweather.wmo.int/es/json/" + id + "_es.xml";
+    var link = "https://worldweather.wmo.int/es/json/" + id + "_es.xml";
 
     $.ajax({
         url: link,
