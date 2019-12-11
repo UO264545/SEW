@@ -1,4 +1,4 @@
-section[name="calculadora"] {
+section[id="calculadora"] {
     background-color: lightgray;
     display: grid;
     height: 350px;
@@ -6,7 +6,7 @@ section[name="calculadora"] {
     border-radius: 7.5px;
 }
 
-section[name="botones"] {
+section[id="botones"] {
     padding-left: 2.5%;
     display: inline-grid;
 }
@@ -28,7 +28,7 @@ textarea {
     text-align:right;
 }
 
-section[name="resultado"] {
+section[id="resultado"] {
     padding-left: 2.5%;
     padding-top: 2.5%;
 }
