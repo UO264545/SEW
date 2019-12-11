@@ -15,19 +15,19 @@ input[id="text2"] {
     color: black;
 }
 
-section[name="calculadora"] {
+section[id="calculadora"] {
     background-color: lightgray;
     display: grid;
     height: 350px;
     width: 350px;
 }
 
-section[name="botones"] {
+section[id="botones"] {
     padding-left: 7.5%;
     display:inline-grid;
 }
 
-section[name="fila1"] > button, section[name="fila2"] > button {
+section[id="fila1"] > button, section[id="fila2"] > button {
     background-color: lightgray;
     width: 14%;
     font-size: 0.75em;

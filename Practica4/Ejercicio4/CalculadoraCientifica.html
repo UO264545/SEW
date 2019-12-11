@@ -9,67 +9,67 @@
 </head>
 <body>
     <h1>Calculadora cientifica</h1>
-    <section name="calculadora">
-        <section name="resultado">
+    <section id="calculadora">
+        <section id="resultado">
             <input id="text" type=text value="" disabled="disabled" />
             <input id="text2" type=text value="" disabled="disabled" />
         </section>
-        <section name="botones">
-            <section name="fila1">
-                <button type="button" id="deg" onClick="calculadora.deg()">DEG</button>
+        <section id="botones">
+            <section id="fila1">
+                <button type="button" name="deg" onClick="calculadora.deg()">DEG</button>
                 <button type="button" name="hyp" onClick="">HYP</button>
                 <button type="button" name="fe" onClick="calculadora.restarNumeroMemoria()">F-E</button>
             </section>
-            <section name="fila2">
+            <section id="fila2">
                 <button type="button" name="m" onClick="calculadora.borrarMemoria()">MC</button>
                 <button type="button" name="m" onClick="calculadora.recuperarMemoria()">MR</button>
                 <button type="button" name="m" onClick="calculadora.sumarNumeroMemoria()">M+</button>
                 <button type="button" name="m" onClick="calculadora.restarNumeroMemoria()">M-</button>
                 <button type="button" name="m" onClick="calculadora.guardarMemoria()">MS</button>
             </section>
-            <section name="fila3">
+            <section id="fila3">
                 <button type="button" name="operacion" onClick="calculadora.elevarAlCuadrado()">x²</button>
                 <button type="button" name="operacion" onClick="calculadora.elevarAX()">x^y</button>
                 <button type="button" name="operacion" onClick="calculadora.seno()">sin</button>
                 <button type="button" name="operacion" onClick="calculadora.coseno()">cos</button>
                 <button type="button" name="operacion" onClick="calculadora.tangente()">tan</button>
             </section>
-            <section name="fila4">
+            <section id="fila4">
                 <button type="button" name="operacion" onClick="calculadora.raizCuadrada()">√</button>
                 <button type="button" name="operacion" onClick="calculadora.elevar10A()">10^x</button>
                 <button type="button" name="operacion" onClick="calculadora.logaritmo()">log</button>
                 <button type="button" name="operacion" onClick="calculadora.exp()">Exp</button>
                 <button type="button" name="operacion" onClick="calculadora.anadirOperacion('%')">Mod</button>
             </section>
-            <section name="fila4">
+            <section id="fila4">
                 <button type="button" name="operacion" onClick="">↑</button>
                 <button type="button" name="operacion" onClick="calculadora.borrarNumActual()">CE</button>
                 <button type="button" name="operacion" onClick="calculadora.resetear()">C</button>
                 <button type="button" name="operacion" onClick="calculadora.borrar()">DEL</button>
                 <button type="button" name="operacion" onClick="calculadora.anadirOperacion('/')">÷</button>
             </section>
-            <section name="fila5">
+            <section id="fila5">
                 <button type="button" name="operacion" onClick="calculadora.pi()">π</button>
                 <button type="button" name="numero" onClick="calculadora.anadirNumero(7)">7</button>
                 <button type="button" name="numero" onClick="calculadora.anadirNumero(8)">8</button>
                 <button type="button" name="numero" onClick="calculadora.anadirNumero(9)">9</button>
                 <button type="button" name="operacion" onClick="calculadora.anadirOperacion('*')">X</button>
             </section>
-            <section name="fila6">
+            <section id="fila6">
                 <button type="button" name="operacion" onClick="calculadora.fact()">n!</button>
                 <button type="button" name="numero" onClick="calculadora.anadirNumero(4)">4</button>
                 <button type="button" name="numero" onClick="calculadora.anadirNumero(5)">5</button>
                 <button type="button" name="numero" onClick="calculadora.anadirNumero(6)">6</button>
                 <button type="button" name="operacion" onClick="calculadora.anadirOperacion('-')">-</button>
             </section>
-            <section name="fila7">
+            <section id="fila7">
                 <button type="button" name="operacion" onClick="calculadora.cambiarSigno()">±</button>
                 <button type="button" name="numero" onClick="calculadora.anadirNumero(1)">1</button>
                 <button type="button" name="numero" onClick="calculadora.anadirNumero(2)">2</button>
                 <button type="button" name="numero" onClick="calculadora.anadirNumero(3)">3</button>
                 <button type="button" name="operacion" onClick="calculadora.anadirOperacion('+')">+</button>
             </section>
-            <section name="fila8">
+            <section id="fila8">
                 <button type="button" name="parentesis" onClick="calculadora.anadirNumero('(')">(</button>
                 <button type="button" name="parentesis" onClick="calculadora.anadirNumero(')')">)</button>
                 <button type="button" name="numero" onClick="calculadora.anadirNumero(0)">0</button>
