@@ -24,7 +24,6 @@ class Buscador {
         var json = data.responseJSON;
         this.pokemon = new Pokemon(json.name);
 
-        console.log(json);
         this.pokemon.tipos = [];
         var tipos = json.types;
         for (var i = 0; i < tipos.length; i++) 
