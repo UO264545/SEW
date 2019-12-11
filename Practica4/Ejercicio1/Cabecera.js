@@ -21,4 +21,4 @@ function informacion(asignatura, titulacion, centro, universidad, curso, estudia
 }
 
 var cabecera = informacion("Software y Estandares para la Web", "Ingenieria Informatica del Software", "Escuela de Ingenieria Informatica",
-                            "Universidad de Oviedo", "3º", "Thalia Cuetos Fernandez", "UO264545@uniovi.es");
+    "Universidad de Oviedo", "3\u00BA", "Thalia Cuetos Fernandez", "UO264545@uniovi.es");
