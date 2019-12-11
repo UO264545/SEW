@@ -2,7 +2,7 @@ body {
     background-color:bisque;
 }
 
-section[name="calculadora"] {
+section[id="calculadora"] {
     background-color:steelblue;
     border-radius: 20px;
     border-color: black;
@@ -12,15 +12,15 @@ section[name="calculadora"] {
     width: 200px;
 }
 
-section[name="botones"] {
+section[id="botones"] {
     display:inline-grid;
 }
 
-section[name="resultado"], section[name="botones"] {
+section[id="resultado"], section[id="botones"] {
     padding-left: 7.5%;
 }
 
-section[name="resultado"] {
+section[id="resultado"] {
     width: 84%;
     height: 25%;
     align-self: center;
