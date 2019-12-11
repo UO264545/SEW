@@ -5,15 +5,17 @@
     <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
     <script src="Ejercicio7.js"></script>
     <script src="jquery-3.4.1.min.js"></script>
+    <title title="Ejercicio 7"/>
 </head>
 <body>
     <h1>Encabezado 1</h1>
     <h2>Encabezado 2</h2>
     <h3>Encabezado 3</h3>
     <button id="btEncabezados" onclick="modificador.cambiarTextoAEcabezados()">Modificar texto a los encabezados</button>
-    <p id="parrafo">Esto es un parrafo.</p>
+    <p id="parrafo">Esto es un párrafo.</p>
     <button id="btParrafo" onclick="modificador.ocultarParrafo()">Ocultar parrafo</button>
-    <section name="tabla">
+    <section id="tabla">
+        <h4>Tabla</h4>
         <table id="tabla">
             <tr>
                 <th>Columna 1</th>
@@ -31,17 +33,24 @@
                 <td>10</td>
             </tr>
         </table>
-        <button id="btFilas" onclick="modificador.agregarFila()">A�adir nuevas filas</button>
-        <button id="btEliminarFilas" onclick="modificador.eliminarUltimaFila()">Quitar ultima fila</button>
-        <section name="operacionesConTabla">
+        <button id="btFilas" onclick="modificador.agregarFila()">Añadir nuevas filas</button>
+        <button id="btEliminarFilas" onclick="modificador.eliminarUltimaFila()">Quitar última fila</button>
+        <section id="operacionesConTabla">
             <button id="btSumarTabla" onclick="modificador.sumarTabla()">Sumar filas y columnas</button>
             <input id="sumaTabla" type=text value="" disabled="disabled" />
         </section>
     </section>
-    <section name="informacion">
-        <button id="btInformacion" onclick="modificador.mostrarInformacion()">Mostrar informacion</button>
-        <button id="btOcultarInformacion" onclick="modificador.ocultarInformacion()">Ocultar informacion</button>
+    <section id="informacion">
+        <button id="btInformacion" onclick="modificador.mostrarInformacion()">Mostrar información</button>
+        <button id="btOcultarInformacion" onclick="modificador.ocultarInformacion()">Ocultar información</button>
         <section id="informacion"></section>
     </section>
+    <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                 src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                 alt="¡CSS Válido!" />
+        </a>
+    </p>
 </body>
 </html>
