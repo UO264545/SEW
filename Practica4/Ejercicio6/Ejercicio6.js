@@ -15,7 +15,7 @@ function obtenerDificultad() {
     var botones = document.getElementsByName("dificultad");
     for (var i = 0; i < botones.length; i++) {
         if (botones[i].checked)
-            dif = botones[i].getAttribute("numero").valueOf();
+            dif = botones[i].getAttribute("value").valueOf();
     }
     return dif;
 }
