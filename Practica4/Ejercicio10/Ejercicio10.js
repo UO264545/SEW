@@ -20,7 +20,7 @@ class ConversionMonedas {
 
     consultarCambio(moneda, euros) {
         $.ajax({
-            url: "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+            url: "https://cors-anywhere.herokuapp.com/https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
             type: "get",
             dataType: 'xml',
             data: {},

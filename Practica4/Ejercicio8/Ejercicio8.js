@@ -1,15 +1,16 @@
 function iniciarPagina() {    $("section").each(function () {        var boton = "<button onclick='mostrarDatos(" +            $(this).attr("id") +            ")' >Consultar informacion meteorologica</button>";        var botonOcultar = "<button onclick='ocultarDatos(" +            $(this).attr("id") +            ")' >Ocultar</button>";        $(this).html($(this).html() + "<section name='botones'>" + boton + botonOcultar + "</section>");    });}function ocultarDatos(id) {    $("#" + id).children("#datos").remove();}function mostrarDatos(id) {    var seccion = $("#" + id);
-    var link = "https://worldweather.wmo.int/es/json/" + id + "_es.xml";
+    var link = "https://cors-anywhere.herokuapp.com/https://worldweather.wmo.int/es/json/" + id + "_es.xml";
 
     $.ajax({
         url: link,
         type: "get",
-        dataType: 'json',
+        dataType: 'application/json',
         data: {},
         crossDomain: true,
         complete: function (data) {
+            console.log(data);
             var datos = "<section id='datos'>";
-            var json = data.responseJSON;
+            var json = JSON.parse(data.responseText);
 
             var dias = json.city.forecast.forecastDay;
             for (var dia of dias) {
@@ -41,6 +42,7 @@ function iniciarPagina() {    $("section").each(function () {        var boton
 }
 
 function setHeader(xhr) {
-    xhr.setRequestHeader('Authorization', "localhost");
-    xhr.setRequestHeader('Access-Control-Allow-Origin', 'localhost');
+    xhr.setRequestHeader('Authorization', "*");
+    xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+    xhr.setRequestHeader('x-requested-with', '3');
 }

@@ -1,5 +1,5 @@
 function iniciarPagina() {    $("section").each(function () {        var boton = "<button onclick='mostrarDatos(" +            $(this).attr("id") +            ")' >Consultar informacion meteorologica</button>";        var botonOcultar = "<button onclick='ocultarDatos(" +            $(this).attr("id") +            ")' >Ocultar</button>";        $(this).html($(this).html() + "<section name='botones'>" + boton + botonOcultar + "</section>");    });}function ocultarDatos(id) {    $("#" + id).children("#datos").remove();}function mostrarDatos(id) {    var seccion = $("#" + id);
-    var link = "https://api.tutiempo.net/xml/?lan=es&apid=qCDza4Xzaa4zagt&lid=" + id;
+    var link = "https://cors-anywhere.herokuapp.com/https://api.tutiempo.net/xml/?lan=es&apid=qCDza4Xzaa4zagt&lid=" + id;
 
     $.ajax({
         url: link,
@@ -52,6 +52,6 @@ function iniciarPagina() {    $("section").each(function () {        var boton
 }
 
 function setHeader(xhr) {
-    xhr.setRequestHeader('Authorization', "localhost");
-    xhr.setRequestHeader('Access-Control-Allow-Origin', 'localhost');
+    xhr.setRequestHeader('Authorization', "*");
+    xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
 }
