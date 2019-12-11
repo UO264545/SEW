@@ -3,47 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css" />
-    <script type="text/javascript" src="CalculadoraBasica.js"></script>
+    <script src="CalculadoraBasica.js"></script>
     <title>Calculadora básica</title>
 </head>
 <body>
     <h1>Calculadora básica</h1>
-	<section name="calculadora">
-		<section name="resultado">
-			<input id="text" type=text value="" disabled="disabled"/>
-		</section>
-		<section name="botones">
-			<section name="fila1">
-				<button type="button" name="m" onClick="calculadora.recuperarMemoria()">mrc</button>
-				<button type="button" name="m" onClick="calculadora.restarNumeroMemoria()">m-</button>
-				<button type="button" name="m" onClick="calculadora.sumarNumeroMemoria()">m+</button>
-				<button type="button" name="operacion" onClick="calculadora.anadirOperacion('/')">/</button>
-			</section>
-			<section name="fila2">
-				<button type="button" name="numero" onClick="calculadora.anadirNumero(7)">7</button>
-				<button type="button" name="numero" onClick="calculadora.anadirNumero(8)">8</button>
-				<button type="button" name="numero" onClick="calculadora.anadirNumero(9)">9</button>
-				<button type="button" name="operacion" onClick="calculadora.anadirOperacion('*')">*</button>
-			</section>
-			<section name="fila3">
-				<button type="button" name="numero" onClick="calculadora.anadirNumero(4)">4</button>
-				<button type="button" name="numero" onClick="calculadora.anadirNumero(5)">5</button>
-				<button type="button" name="numero" onClick="calculadora.anadirNumero(6)">6</button>
-				<button type="button" name="operacion" onClick="calculadora.anadirOperacion('-')">-</button>
-			</section>
-			<section name="fila4">
-				<button type="button" name="numero" onClick="calculadora.anadirNumero(1)">1</button>
-				<button type="button" name="numero" onClick="calculadora.anadirNumero(2)">2</button>
-				<button type="button" name="numero" onClick="calculadora.anadirNumero(3)">3</button>
-				<button type="button" name="operacion" onClick="calculadora.anadirOperacion('+')">+</button>
-			</section>
-			<section name="fila5">
-				<button type="button" name="numero" onClick="calculadora.anadirNumero(0)">0</button>
-				<button type="button" name="numero" onClick="calculadora.anadirNumero('.')">.</button>
-				<button type="button" name="numero" onClick="calculadora.resetear()">C</button>
-				<button type="button" name="igual" onClick="calculadora.realizarOperacion()">=</button>
-			</section>
-		</section>
-	</section>
+    <section id="calculadora">
+        <section id="resultado">
+            <input id="text" type=text value="" disabled="disabled" />
+        </section>
+        <section id="botones">
+            <section id="fila1">
+                <button type="button" id="m" onClick="calculadora.recuperarMemoria()">mrc</button>
+                <button type="button" id="m" onClick="calculadora.restarNumeroMemoria()">m-</button>
+                <button type="button" id="m" onClick="calculadora.sumarNumeroMemoria()">m+</button>
+                <button type="button" id="operacion" onClick="calculadora.anadirOperacion('/')">/</button>
+            </section>
+            <section id="fila2">
+                <button type="button" id="numero" onClick="calculadora.anadirNumero(7)">7</button>
+                <button type="button" id="numero" onClick="calculadora.anadirNumero(8)">8</button>
+                <button type="button" id="numero" onClick="calculadora.anadirNumero(9)">9</button>
+                <button type="button" id="operacion" onClick="calculadora.anadirOperacion('*')">*</button>
+            </section>
+            <section id="fila3">
+                <button type="button" id="numero" onClick="calculadora.anadirNumero(4)">4</button>
+                <button type="button" id="numero" onClick="calculadora.anadirNumero(5)">5</button>
+                <button type="button" id="numero" onClick="calculadora.anadirNumero(6)">6</button>
+                <button type="button" id="operacion" onClick="calculadora.anadirOperacion('-')">-</button>
+            </section>
+            <section id="fila4">
+                <button type="button" id="numero" onClick="calculadora.anadirNumero(1)">1</button>
+                <button type="button" id="numero" onClick="calculadora.anadirNumero(2)">2</button>
+                <button type="button" id="numero" onClick="calculadora.anadirNumero(3)">3</button>
+                <button type="button" id="operacion" onClick="calculadora.anadirOperacion('+')">+</button>
+            </section>
+            <section id="fila5">
+                <button type="button" id="numero" onClick="calculadora.anadirNumero(0)">0</button>
+                <button type="button" id="numero" onClick="calculadora.anadirNumero('.')">.</button>
+                <button type="button" id="numero" onClick="calculadora.resetear()">C</button>
+                <button type="button" id="igual" onClick="calculadora.realizarOperacion()">=</button>
+            </section>
+        </section>
+    </section>
+    <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                 src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                 alt="¡CSS Válido!" />
+        </a>
+    </p>
 </body>
 </html>
