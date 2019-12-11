@@ -18,7 +18,7 @@ section {
     border-style: outset;
 }
 
-section[id="informacion"] > p {
+section[id="sectionInformacion"] > p {
     border-bottom-style: dashed;
     border-width: 1px 1px;
     font-size: 0.9em;
