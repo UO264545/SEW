@@ -7,7 +7,7 @@ class GeoLocalizacion {
     }
 
     mostrarPosicion(posicion) {
-        miPosicion = new google.maps.Marker({
+        var miPosicion = new google.maps.Marker({
             position: new google.maps.LatLng(posicion.coords.latitude, posicion.coords.longitude),
             map: mapa,
             title: "Mi posicion"

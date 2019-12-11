@@ -1,0 +1,119 @@
+{
+  "categorias": [
+    {
+      "name": "SEW",
+      "preguntas": [
+        {
+          "nombre":  "HTML",
+          "definicion": "Lenguaje de marcado que se utiliza para el desarrollo de p&aacute;ginas de Internet.",
+          "imagen": "./img/SEW/html.png"
+        },
+        {
+          "nombre":  "CSS",
+          "definicion": "Permite presentar, de manera estructurada, un documento que fue escrito en un lenguaje de marcado. Se usa especialmente en el dise&ntilde;o visual de un sitio web.",
+          "imagen": "./img/SEW/css.png"
+        },
+        {
+          "nombre": "JQuery",
+          "definicion": "Librer&iacute;a de c&oacute;digo abierto que simplifica la tarea de programar en JavaScript y permite agregar interactividad a un sitio web sin tener conocimientos del lenguaje.",
+          "imagen": "./img/SEW/jquery.png"
+        },
+        {
+          "nombre": "W3C",
+          "definicion": "Comit&eacute; que se dedica a implementar tecnologias uniformes en el uso y desarrollo de Internet.",
+          "imagen": "./img/SEW/w3c.png"
+        },
+        {
+          "nombre": "JavaScript",
+          "definicion": "Lenguaje de programaci&oacute;n dise&ntilde;ado en un principio para a&ntilde;adir interactividad a las p&aacute;ginas web y crear aplicaciones web.",
+          "imagen": "./img/SEW/javascript.png"
+        },
+        {
+          "nombre": "StackOverflow",
+          "definicion": "Sitio web utilizado por una comunidad de desarrolladores inform&aacute;ticos, en la cual otros desarrolladores pueden encontrar soluciones a problemas de programaci&oacute;n en diferentes lenguajes.",
+          "imagen": "./img/SEW/stackoverflow.png"
+        },
+        {
+          "nombre": "UniOvi (Universidad de Oviedo)",
+          "definicion": "Universidad p&uacute;blica ubicada en la ciudad de Oviedo, Principado de Asturias (Espa&ntilde;a), con campus en Oviedo, Gij&oacute;n y Mieres.",
+          "imagen": "./img/SEW/uniovi.png"
+        }
+      ]
+    },
+    {
+      "name": "Perros",
+      "preguntas": [
+        {
+          "nombre": "Husky",
+          "definicion": "Perro n&oacute;rdico de origen canadiense y por su gran resistencia se emplea en el tiro de trineos.",
+          "imagen": "./img/Perros/husky.jpg"
+        },
+        {
+          "nombre": "Teckel",
+          "definicion": "Perro originario de Alemania que antiguamente se empleaba como perro de caza, para sacar a los conejos y tejones de sus madrigueras, pero hoy es solo animal de compa&ntilde;&iacute;a.",
+          "imagen": "./img/Perros/teckel.png"
+        },
+        {
+          "nombre": "Chihuahua",
+          "definicion": "Perro de compa&ntilde;&iacute;a de muy peque&ntilde;o tama&ntilde;o originario de M&eacute;xico.",
+          "imagen": "./img/Perros/chihuahua.png"
+        },
+        {
+          "nombre": "Doberman",
+          "definicion": "Perro de tama&ntilde;o medio, es muy fiero, por lo que se emplea como perro guardi&aacute;n y de defensa.",
+          "imagen": "./img/Perros/doberman.jpg"
+        },
+        {
+          "nombre": "Pastor ovejero australiano",
+          "definicion": "Perro de pastoreo que se desarroll&oacute; en el norte de Espa&ntilde;a, en Asturias y el Pa&iacute;s Vasco, y que, emigrantes lo llevaron a Estados Unidos y Australia.",
+          "imagen": "./img/Perros/pastorOvejeroAustraliano.jpg"
+        },
+        {
+          "nombre": "Mast&iacute;n",
+          "definicion": "Perro muy fuerte, valiente y leal, por lo que se emplea como perro guardi&aacute;n y de defensa; hay varias especies.",
+          "imagen": "./img/Perros/mastin.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Mitologia asturiana",
+      "preguntas": [
+        {
+          "nombre": "Basiliscu",
+          "definicion": "Nace del huevo que pone un gallo, en vez de una gallina. El gallo pondr&aacute; el huevo dentro del cuchu y con el calor de este ser&aacute; incubado hasta que eclosione.",
+          "imagen": "./img/Mitologia/basilisco.jpeg"
+        },
+        {
+          "nombre": "Cu&eacute;lebre",
+          "definicion": "Serpiente gigantesca que custodia tesoros o a las xanas.",
+          "imagen": "./img/Mitologia/cuelebre.jpg"
+        },
+        {
+          "nombre": "Curuxa",
+          "definicion": "Se trata de una lechuza, que si se posa o ronda la casa de un enfermo significa que este enfermo va a fallecer.",
+          "imagen": "./img/Mitologia/curuxa.jpg"
+        },
+        {
+          "nombre": "G&uuml;estia",
+          "definicion": "Procesi&oacute;n de &aacute;nimas o aparecidos que discurre desde las doce de la noche por los t&eacute;rminos de una parroquia con el prop&oacute;sito de visitar, o advertir, a todas aquellas casas en las que en breve habr&aacute; una defunci&oacute;n.",
+          "imagen": "./img/Mitologia/guestia.jpg"
+        },
+        {
+          "nombre": "Trasgu",
+          "definicion": "Vive en las casas y es sumamente travieso, llegando a ocasionar grandes destrozos en ocasiones. Causa graves trastornos en la vida familiar en aquellas casas que habita.",
+          "imagen": "./img/Mitologia/trasgu.jpg"
+        },
+        {
+          "nombre": "Xana",
+          "definicion": "Se peinan a los orillas de las fuentes o saltos de agua con peines de oro, esperando a los incautos para cautivarlos con sus encantos y promesas de tesoros, apareci&eacute;ndose en el reflejo del agua cuando &eacute;stos acuden a beber a la fuente.",
+          "imagen": "./img/Mitologia/xana.jpg"
+        },
+        {
+          "nombre": "Nuberu",
+          "definicion": "Conductor de nubes y tormentas. Puede ser terriblemente da&ntilde;ino con las personas, lacrando pastos y sembrados, si bien puede ser muy beneficioso con aquellos que le ayuden.",
+          "imagen":  "./img/Mitologia/nuberu.jpg"
+        }
+      ]
+    }
+  ]
+}

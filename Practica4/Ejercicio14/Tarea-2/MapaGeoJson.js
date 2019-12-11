@@ -10,21 +10,16 @@ class GeoLocalizacion {
         mostrarMarcador(posicion.coords.latitude, posicion.coords.longitude, "Mi posicion");
     }
 
-    cargarKML() {
+    cargarGeoJSON() {
         this.mostrarMapa();
 
-        var kmlLayer = new google.maps.KmlLayer();
-        var src = 'https://uo264545.github.io/SEW/Practica4/Ejercicio14/Tarea-1/rutas.kml';
-        var kmlLayer = new google.maps.KmlLayer(src, {
-            suppressInfoWindows: true,
-            preserveViewport: false,
-            map: mapa
+        var promise = $.getJSON("rutas.GeoJSON"); 
+        promise.then(function (data) {
+            var cachedGeoJson = data;
+            mapa.data.addGeoJson(cachedGeoJson, { idPropertyName: "id" });
         });
-        kmlLayer.addListener('click', function (event) {
-            var content = event.featureData.infoWindowHtml;
-            var testimonial = document.getElementById('capture');
-            testimonial.innerHTML = content;
-        });
+
+        console.log(mapa);
     }
 
     mostrarMarcador(lat, long, name) {

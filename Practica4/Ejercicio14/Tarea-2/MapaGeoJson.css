@@ -1,0 +1,10 @@
+#pos {
+    height: 70%;
+    width: auto;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

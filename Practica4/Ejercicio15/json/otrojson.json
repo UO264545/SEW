@@ -1,0 +1,44 @@
+{
+  "categorias": [
+    {
+      "name": "SEW",
+      "preguntas": [
+        {
+          "nombre": "HTML",
+          "definicion": "Lenguaje de marcado que se utiliza para el desarrollo de p&aacute;ginas de Internet.",
+          "imagen": "./img/SEW/html.png"
+        },
+        {
+          "nombre": "CSS",
+          "definicion": "Permite presentar, de manera estructurada, un documento que fue escrito en un lenguaje de marcado. Se usa especialmente en el dise&ntilde;o visual de un sitio web.",
+          "imagen": "./img/SEW/css.png"
+        },
+        {
+          "nombre": "JQuery",
+          "definicion": "Librer&iacute;a de c&oacute;digo abierto que simplifica la tarea de programar en JavaScript y permite agregar interactividad a un sitio web sin tener conocimientos del lenguaje.",
+          "imagen": "./img/SEW/jquery.png"
+        },
+        {
+          "nombre": "W3C",
+          "definicion": "Comit&eacute; que se dedica a implementar tecnologias uniformes en el uso y desarrollo de Internet.",
+          "imagen": "./img/SEW/w3c.png"
+        },
+        {
+          "nombre": "JavaScript",
+          "definicion": "Lenguaje de programaci&oacute;n dise&ntilde;ado en un principio para a&ntilde;adir interactividad a las p&aacute;ginas web y crear aplicaciones web.",
+          "imagen": "./img/SEW/javascript.png"
+        },
+        {
+          "nombre": "StackOverflow",
+          "definicion": "Sitio web utilizado por una comunidad de desarrolladores inform&aacute;ticos, en la cual otros desarrolladores pueden encontrar soluciones a problemas de programaci&oacute;n en diferentes lenguajes.",
+          "imagen": "./img/SEW/stackoverflow.png"
+        },
+        {
+          "nombre": "UniOvi (Universidad de Oviedo)",
+          "definicion": "Universidad p&uacute;blica ubicada en la ciudad de Oviedo, Principado de Asturias (Espa&ntilde;a), con campus en Oviedo, Gij&oacute;n y Mieres.",
+          "imagen": "./img/SEW/uniovi.png"
+        }
+      ]
+    }
+  ]
+}

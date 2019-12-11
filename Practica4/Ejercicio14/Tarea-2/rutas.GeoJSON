@@ -1,0 +1,100 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-5.471383333333334, 43.19998055]},
+      "properties": {"name": "Inicio Ruta del Alba"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-5.4761, 43.1956]},
+      "properties": {"name": "Piscifactoría del Alba"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-5.4711, 43.1863]},
+      "properties": {"name": "El Vigilante"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-5.4776, 43.1805]},
+      "properties": {"name": "Paraje del Campurru"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-5.4758, 43.1698]},
+      "properties": {"name": "Cascada"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-5.4758, 43.1615]},
+      "properties": {"name": "Desfiladero del Alba"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-5.4870, 43.1546]},
+      "properties": {"name": "Cruz de los Rios"}
+      },
+    { "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-5.471383333333334, 43.19998055], [-5.4761, 43.1956], [-5.4711, 43.1863], 
+		  [-5.4776, 43.1805], [-5.4758, 43.1698], [-5.4758, 43.1615], [-5.4870, 43.1546]
+          ]},
+      "properties": {"name": "Ruta del Alba"}     
+    },
+
+	{ "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-5.5115, 43.3629]},
+      "properties": {"name": "Inicio Ruta de la sidra"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-5.5048, 43.3573]},
+      "properties": {"name": "Museo de la Sidra de Nava"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-5.4214, 43.3985]},
+      "properties": {"name": "Casa-Museo de la Cerámica Popular Asturiana"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-5.4540, 43.5390]},
+      "properties": {"name": "Ecomuséu CA L'Asturcón"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-5.2731, 43.504]},
+      "properties": {"name": "Museo del Jurásico"}
+      },
+    { "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-5.5115, 43.3629], [-5.5048, 43.3573], [-5.4214, 43.3985], [-5.4540, 43.5390], [-5.2731, 43.504]
+          ]},
+      "properties": {"name": "Ruta de la sidra"}     
+    },
+
+	{ "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-4.7561, 43.4210]},
+      "properties": {"name": "El Camino de Santiago por Asturias"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-5.0567, 43.4631]},
+      "properties": {"name": "Ribadesella"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-5.6640, 43.5377]},
+      "properties": {"name": "Gijón"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-5.9228, 43.5582]},
+      "properties": {"name": "Avilés"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-6.2297, 43.561]},
+      "properties": {"name": "Soto de Luiña"}
+      },
+    { "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.7561, 43.4210], [-5.0567, 43.4631], [-5.6640, 43.5377], [-5.9228, 43.5582], [-6.2297, 43.561]
+          ]},
+      "properties": {"name": "El Camino de Santiago por Asturias"}     
+    }
+     ]
+}
