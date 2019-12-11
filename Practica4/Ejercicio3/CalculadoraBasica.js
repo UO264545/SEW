@@ -30,7 +30,7 @@ class CalculadoraBasica {
 
     realizarOperacion() {
         this.operacionTotal = eval(this.operacionTotal);
-        this.operacionAMostrar = this.operacionTotal;
+        this.operacionAMostrar = this.operacionTotal + "";
         this.actualizarInput();
     }
 
