@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="Ejercicio10.css" />
-    <script src="Ejercicio10.js" charset="utf-8"></script>
+    <script src="Ejercicio10.js"></script>
+    <title>Ejercicio 10</title>
     <script src="jquery-3.4.1.min.js"></script>
     <script>
                 $(function () {
@@ -11,21 +12,28 @@
             });
     </script>
 </head>
-    <body>
-        <h1>Cambio de moneda</h1>
-        <section>
-            <input type="text" id="inputEuro" />
-            <p id="euro"></p>
-            <button id="cambiar" onclick="conversor.cambiar()"><img src="img/cambio.png" /></button>
-            <input type="text" id="inputOtraMoneda" disabled="disabled"/>
-            <p id="otraMoneda"></p>
-            <select id="monedas">
-                <option value="USD">Dolar estadounidense (USD)</option>
-                <option value="JPY">Yen (JPY)</option>
-                <option value="GBP">Libra esterlina (GBP)</option>
-                <option value="CZK">Corona checa (CZK)</option>
-                <option value="DKK">Corona danesa (DKK)</option>
-            </select>
-        </section>
-    </body>
+<body>
+    <h1>Cambio de moneda</h1>
+    <section>
+        <input type="text" id="inputEuro" />
+        <p id="euro"></p>
+        <button id="cambiar" onclick="conversor.cambiar()"><img src="img/cambio.png" alt="Cambiar" /></button>
+        <input type="text" id="inputOtraMoneda" disabled="disabled" />
+        <p id="otraMoneda"></p>
+        <select id="monedas">
+            <option value="USD">Dolar estadounidense (USD)</option>
+            <option value="JPY">Yen (JPY)</option>
+            <option value="GBP">Libra esterlina (GBP)</option>
+            <option value="CZK">Corona checa (CZK)</option>
+            <option value="DKK">Corona danesa (DKK)</option>
+        </select>
+    </section>
+    <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                 src="https://jigsaw.w3.org/css-validator/images/vcss"
+                 alt="¡CSS Válido!" />
+        </a>
+    </p>
+</body>
 </html>
